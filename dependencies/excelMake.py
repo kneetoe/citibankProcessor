@@ -29,33 +29,33 @@ def sums(data):
     i=1
     length = len(data[0])
     while(i < length):
-        if(data[5][i] == 'WILLIAM R PALMA' and data[3][i] != '0'):
+        if(data[5][i] == 'CARL DOE' and data[3][i] != '0'):
             sum1 = sum1 + float(data[3][i])
-        elif(data[5][i] == 'ELIZABETH PALMA' and data[3][i] != '0'):
+        elif(data[5][i] == 'JANET DOE' and data[3][i] != '0'):
             sum2 = sum2 + float(data[3][i])
-        elif(data[5][i] == 'WILLIAM M PALMA' and data[3][i] != '0'):
+        elif(data[5][i] == 'JOHN DOE' and data[3][i] != '0'):
             sum3 = sum3 + float(data[3][i])
         elif(str(data[3][i]) != '0'):
             sum4 = (math.fsum([sum4, float(data[3][i])]))
         i = i + 1
         
     lst = []
-    lst.append('WILLIAM R PALMA')
+    lst.append('CARL DOE')
     lst.append('{:.2f}'.format(sum1))
     sums.append(lst)
     
     lst = []
-    lst.append('ELIZABETH PALMA')
+    lst.append('JANET DOE')
     lst.append('{:.2f}'.format(sum2))
     sums.append(lst)
     
     lst = []
-    lst.append('WILLIAM M PALMA')
+    lst.append('JOHN DOE')
     lst.append('{:.2f}'.format(sum3))
     sums.append(lst)
     
     lst = []
-    lst.append('ROBERTO E PALMA')
+    lst.append('JESSICA DOE')
     lst.append('{:.2f}'.format(sum4))
     sums.append(lst)
 

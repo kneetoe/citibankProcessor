@@ -1,12 +1,9 @@
 Health
 Food
-ENT
+Entertainment
 Utilities
-Eat Out
-INS-Health
-A
-PB
-EB
-Ginger
+Carry Out
+Health Insurance
+Pet
 AUTO
 Home

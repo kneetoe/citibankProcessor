@@ -1,4 +1,4 @@
-import os, shutil, math, openpyxl, time
+import os, openpyxl, time
 import tkinter as tk
 from tkinter.ttk import *
 from read import storeData
