@@ -37,7 +37,6 @@ sudo apt-get install python3-tk
 * Provides an easy and fast way to label and comment on transactions
 * Labels different expenses to different categories
 * Automatically labels categories with keywords
-* 
 
 
 
