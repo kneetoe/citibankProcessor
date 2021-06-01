@@ -83,7 +83,7 @@ sudo apt-get install python3-tk
 
 
 
-![commentWindow](pictures/commentWindow.PNG)
+<img src="pictures/commentWindow.PNG" alt="commentWindow" align="center" />
 
 > The user is able to leave a comment to each transaction by clicking the “Add Comment”
 
