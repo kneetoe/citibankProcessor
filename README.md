@@ -1,3 +1,7 @@
+---
+typora-root-url: citibank pictures
+---
+
 # CitibankProcessor
 
 ### Purpose
@@ -43,7 +47,11 @@ sudo apt-get install python3-tk
 
 ### Pictures
 
+<img src="/Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
+
 <img src="D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
+
+
 
 > This is a sample input that is determined by Citi Bank, it contains all transactions within a group of accounts
 
