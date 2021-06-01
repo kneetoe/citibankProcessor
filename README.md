@@ -1,7 +1,3 @@
----
-typora-root-url: citibank pictures
----
-
 # CitibankProcessor
 
 ### Purpose
@@ -47,9 +43,9 @@ sudo apt-get install python3-tk
 
 ### Pictures
 
-<img src="/Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
+<img src="pictures/Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
 
-<img src="D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
+<img src="pictures/\Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
 
 
 
@@ -57,85 +53,85 @@ sudo apt-get install python3-tk
 
 
 
-![mainWindow](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\mainWindow.PNG)
+![mainWindow](pictures/mainWindow.PNG)
 
 > Initial window that prompts a user to open a file
 
 
 
-![mainWindow0](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\mainWindow0.PNG)
+![mainWindow0](pictures/mainWindow0.PNG)
 
 > Error message when a file is not valid
 
 
 
-![mainWindow1](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\mainWindow1.PNG)
+![mainWindow1](pictures/mainWindow1.PNG)
 
 > Prompts the user to go to next window and to check or uncheck the “Only Auto” option. This option skips all of the items that are not automatic and only categorize all the transactions that can be categorized.
 
 
 
-![itemWindow](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\itemWindow.PNG)
+![itemWindow](pictures/itemWindow.PNG)
 
 > The second window. This is an example of a transaction. It gives information on the transaction including the cost, date and the description. This allows a user to view what the purchase is to determine what category it belongs to and leaves an option to leave a comment.
 
 
 
-![itemWindow1](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\itemWindow1.PNG)
+![itemWindow1](pictures/itemWindow1.PNG)
 
 > Here the “Food” label was chosen and the transaction is now labeled “Food”, the user is now able to move to the next transaction with the next button.
 
 
 
-![commentWindow](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\commentWindow.PNG)
+![commentWindow](pictures/commentWindow.PNG)
 
 > The user is able to leave a comment to each transaction by clicking the “Add Comment”
 
 
 
-![newCategory](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\newCategory.PNG)
+![newCategory](pictures/newCategory.PNG)
 
 > There is also an option to add a category which will be added to the list of buttons on the transaction window
 
 
 
-![addAuto](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\addAuto.PNG)
+![addAuto](pictures/addAuto.PNG)
 
 > By clicking the “Add Auto” button you could can set auto categorizing phrases. The program will search for the keyword in the transaction description and then will put all transactions with that keyword into the specified category. When this happens, a transaction window is not pulled up for those transactions.
 
 
 
-![finished](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\finished.PNG)
+![finished](pictures/finished.PNG)
 
 > Once all the transactions have been gone through, then the excel spreadsheet is ready to be opened
 
 
 
-![product1](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\product1.jpg)
+![product1](pictures/product1.jpg)
 
 > This is the final product where there exist a new spreadsheet with the correct month and year. There are two new columns that contain the category name, and the comments that were left for each transaction.
 
 
 
-![product2](D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\product2.jpg)
+![product2](pictures/product2.jpg)
 
 > The final excel spreadsheet will also create a table at the end of the spreadsheet telling the totals for each person in that month.
 
 
 
-<img src="D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\autoWords.PNG" alt="autoWords" style="zoom: 80%;" />
+<img src="pictures/autoWords.PNG" alt="autoWords" style="zoom: 80%;" />
 
 > This is an example of how keywords are stored to automatically categorize transactions
 
 
 
-<img src="D:\Work\1_Personal projects\1 - Python Projects\citibankProcessor\citibank pictures\Categories.PNG" alt="Categories" style="zoom:80%;" />
+<img src="pictures/Categories.PNG" alt="Categories" style="zoom:80%;" />
 
 > This is the file where all the User created categories are stored
 
 ### Current TODO
 
-* Variable path for **Begin.vbs** and **start.bat**
+* Variable path for **start.bat**
 * Boot files more traditionally using an **\_\_init\__.py** file
 * Check for stability
 * Cleaner and more concise code
