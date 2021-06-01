@@ -43,8 +43,6 @@ sudo apt-get install python3-tk
 
 ### Pictures
 
-<img src="pictures/Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
-
 <img src="pictures/\Inputfile.PNG" alt="Inputfile" style="zoom:80%;" />
 
 
@@ -53,9 +51,11 @@ sudo apt-get install python3-tk
 
 
 
+
 ![mainWindow](pictures/mainWindow.PNG)
 
 > Initial window that prompts a user to open a file
+
 
 
 
@@ -119,7 +119,7 @@ sudo apt-get install python3-tk
 
 
 
-<img src="pictures/autoWords.PNG" alt="autoWords" style="zoom: 80%;" />
+<img src="pictures/autoWords.PNG" alt="autoWords" style="zoom: 80%; align: center;" />
 
 > This is an example of how keywords are stored to automatically categorize transactions
 
